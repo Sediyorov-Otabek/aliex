@@ -1,0 +1,26 @@
+.hero__head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    button{
+        background: inherit;
+        padding: 3px;
+        border-radius: 10px;
+        &:hover{
+            background: yellow;
+        }
+    }
+    
+}
+.two{
+    display: none;
+}
+@media (max-width:550px) {
+    .one{
+        display: none;
+    }
+.two{
+    display: block;
+}
+}

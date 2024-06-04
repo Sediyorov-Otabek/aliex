@@ -1,0 +1,40 @@
+.cards{
+    margin-top: 50px;
+    .card__wrap{
+        display: flex;
+        flex-direction: column;
+        
+        gap: 15px;
+        .card__collection{
+            display: flex;
+            gap: 15px;
+            list-style: none;
+            &:hover{
+                color: rebeccapurple;
+            }
+        }
+        .card__body{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            align-items: center;
+            justify-content: center;
+            .card{
+                width: 300px;
+                .card__img{
+                    width: 100%;
+                    img{
+                        width: 100%;
+                    }
+                }
+                b{
+                    font-size: 40px;
+                    color: red;
+                }
+                span{
+                    color: red;
+                }
+            }
+        }
+    }
+}
